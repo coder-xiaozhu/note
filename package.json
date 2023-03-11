@@ -1,13 +1,19 @@
 {
-  "devDependencies": {
-    "vuepress": "^1.9.9"
-  },
- "private": false,
+  "private": false,
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "start": "antd-tools run clean && cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider concurrently \"bisheng start -c ./site/bisheng.config.js\""
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji-analytics": "^1.0.0",
+    "vuepress-plugin-code-copy": "^1.0.4"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "1.7.1",
+    "@vuepress/plugin-medium-zoom": "1.7.1",
+    "@vuepress/plugin-pwa": "1.7.1",
+    "vuepress": "^1.9.9"
   }
 }
-
-
