@@ -28,7 +28,7 @@ module.exports = {
             resolve: {
               //配置路径别名
               alias: {
-                'public': path.resolve(__dirname, './public') 
+                'public': path.resolve(__dirname, './') 
               }
             }
           }
@@ -37,7 +37,7 @@ module.exports = {
             resolve: {
               //配置路径别名
               alias: {
-                'public': path.resolve(__dirname, './public') 
+                'public': path.resolve(__dirname, './') 
               }
             }
           }
