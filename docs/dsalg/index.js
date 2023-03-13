@@ -5,9 +5,8 @@ module.exports = () => {
             collapsable: true,
             children: [
                 'data-structure/array/',
-                'data-structure/array/normal',
                 'data-structure/array/sparse'
-              ]
+            ]
         },
         {
             title: '算法-排序算法',

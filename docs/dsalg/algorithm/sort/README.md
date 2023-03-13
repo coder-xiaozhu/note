@@ -1,4 +1,4 @@
-# 排序算法算法
+# 排序算法
 
 ```java
 package com.codezf.vuepress;
