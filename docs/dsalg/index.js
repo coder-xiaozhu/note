@@ -9,6 +9,13 @@ module.exports = () => {
             ]
         },
         {
+            title: '数据结构-队列',
+            collapsable: true,
+            children: [
+                'data-structure/queue/'
+            ]
+        },
+        {
             title: '算法-排序算法',
             collapsable: true,
             children: [
